@@ -1,4 +1,4 @@
-# PDF Text Summarization and Q&A Chatbot
+# Book Chatbot
 
 ## Overview
 
@@ -8,7 +8,6 @@ This project is a web application that enables users to upload PDF documents, ex
 
 - **PDF Upload**: Upload PDF files for processing.
 - **Text Extraction**: Extract and clean text from the uploaded PDF.
-- **Text Summarization**: Generate concise summaries of the extracted text.
 - **Q&A Chatbot**: Ask questions related to the PDF content and receive relevant answers.
 - **User-Friendly UI**: Clean and interactive interface with logo integration.
 
@@ -25,20 +24,14 @@ This project is a web application that enables users to upload PDF documents, ex
 
 Ensure Python 3.7 or higher is installed. Check your Python version with:
 
-## Installation
+## USE
 
-1. Clone the repository:
-````
-git clone <repository_url>
-cd <repository_directory>
-````
-
-2. Create a virtual environment (recommended):
+ Create a virtual environment (recommended):
 ````
 python -m venv venv
 ````
 
-3. Activate the virtual environment:
+ Activate the virtual environment:
 ````
 venv\Scripts\activate
 ````
@@ -68,16 +61,9 @@ streamlit run app.py
 ### 2. Interact with the application:
 
 Upload PDF: Click the "Upload a PDF file" button to upload your PDF document.
-Summarize: Click the "Summarize" button to get a summary of the extracted text.
 Ask Questions: Enter your question in the text input field to get answers based on the PDF content.
 
-### Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure your code adheres to the project’s coding standards and includes tests where applicable.
-
-### License
-
-This project is licensed under the MIT License. 
 ### Acknowledgements
 
 Hugging Face: For providing powerful NLP models.
